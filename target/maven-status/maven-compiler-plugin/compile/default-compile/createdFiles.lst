@@ -1,0 +1,7 @@
+com\dev\web_keycloack\web_keycloack\WebKeycloackApplication.class
+com\dev\web_keycloack\web_keycloack\Services\ProductService.class
+com\dev\web_keycloack\web_keycloack\Services\ProductServiceImpl.class
+com\dev\web_keycloack\web_keycloack\Entities\Product.class
+com\dev\web_keycloack\web_keycloack\Repositories\ProductRepository.class
+com\dev\web_keycloack\web_keycloack\Controller\ProductController.class
+com\dev\web_keycloack\web_keycloack\Config\SecurityConfig.class

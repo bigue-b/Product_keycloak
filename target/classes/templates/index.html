@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIEXPRESS - Découvrez nos Produits</title>
+    <style>
+        /* Styles généraux */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #b82d47, #efc8e0); /* Dégradé orange/rouge */
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Conteneur principal */
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+            width: 90%;
+            max-width: 450px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Image du produit */
+        .product-image {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* Logo */
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Texte */
+        p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        /* Bouton */
+        button {
+            background: #fb5d7f;
+            color: #fff;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0 3px 10px rgba(255, 102, 0, 0.3);
+        }
+
+        button:hover {
+            background: #b82d47;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 102, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/AliExpress_logo.svg" alt="BIENVENUE SUR ALIEXPRESS" class="product-image">
+    <h1>Découvrez nos Produits</h1>
+    <p>Explorez notre large gamme de produits de qualité, sélectionnés pour vous.</p>
+    <button onclick="javascript:document.location.href='http://localhost:8081/products'">
+        Voir les produits
+    </button>
+</div>
+</body>
+</html>
